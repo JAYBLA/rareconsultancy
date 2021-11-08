@@ -1,0 +1,39 @@
+/* ###################
+    HOME SLIDER
+################### */
+
+.image-layer1{
+    background-image: url(../images/slides/slide-v3-1.jpg);
+}
+
+.image-layer2{
+    background-image: url(../images/slides/slide-v3-2.jpg);
+}
+
+.image-layer3{
+    background-image: url(../images/slides/slide-v3-3.jpg);
+}
+
+
+
+/* ###################
+    TOP BAR
+################### */
+@media only screen and (max-width: 768px){
+    .header-top{
+        display: none;
+    }
+}
+
+.patter-box-bg-4{
+    background-image: url(../images/pattern/pattern-bg-4.png);
+}
+
+.pattern-bg-7{
+    background-image: url(../images/pattern/pattern-bg-7.png);
+}
+
+.bottom-divider{
+    height: 2px;
+    background: #008000;
+}

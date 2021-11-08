@@ -336,7 +336,7 @@ li{
     content: '';
     top: 0;
     left: 0;
-    background: #ec8b19;
+    background: #000000;
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -355,7 +355,7 @@ li{
 }
 .btn-four:hover,
 .btn-four:focus{
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -1759,12 +1759,6 @@ select:focus {
 .mobile-menu .social-links li a:hover{
     color: #dddddd;    
 }
-
-
-
-
-
-
 
 
 
@@ -4168,23 +4162,7 @@ select:focus {
     overflow: hidden;
     padding: 0px 0;
 }
-.footer-bottom .outer-box {
-    position: relative;
-    border-top: 2px solid #363636;
-    padding: 44px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.footer-bottom .outer-box .single-box{
-    position: relative;
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-    width: 100%;    
-}
+
 
 .copyright-text {
     position: relative;
@@ -4264,6 +4242,7 @@ select:focus {
     text-align: center;
     transition: all 200ms linear;
     transition-delay: 0.1s;
+    border-radius: 6px;
 }
 .footer-social-links ul li a:hover{
     background: #000000;
@@ -7345,14 +7324,7 @@ select:focus {
     left: 0;
     bottom: auto;
     right: 0;
-    background: rgba(247,150,40,1);/* Old Browsers */
-    background: -moz-linear-gradient(left, rgba(247,150,40,1) 0%, rgba(164,107,42,1) 39%, rgba(136,92,43,1) 51%, rgba(24,33,46,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,150,40,1)), color-stop(39%, rgba(164,107,42,1)), color-stop(51%, rgba(136,92,43,1)), color-stop(100%, rgba(24,33,46,1)));/* Chrome, Safari4+ */
-    background: -webkit-linear-gradient(left, rgba(247,150,40,1) 0%, rgba(164,107,42,1) 39%, rgba(136,92,43,1) 51%, rgba(24,33,46,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, rgba(247,150,40,1) 0%, rgba(164,107,42,1) 39%, rgba(136,92,43,1) 51%, rgba(24,33,46,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left, rgba(247,150,40,1) 0%, rgba(164,107,42,1) 39%, rgba(136,92,43,1) 51%, rgba(24,33,46,1) 100%); /* IE 10+ */
-    background: linear-gradient(to right, rgba(247,150,40,1) 0%, rgba(164,107,42,1) 39%, rgba(136,92,43,1) 51%, rgba(24,33,46,1) 100%);/* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f79628', endColorstr='#000000', GradientType=1 );/* IE6-9 */
+    background: #008000;
 }
 
 
@@ -7411,7 +7383,7 @@ select:focus {
 
 
 .main-slider.style2 .content h3{
-    color: #008000;
+    color: rgba(249,249,249, 0.8);
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;

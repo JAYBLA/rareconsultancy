@@ -24,6 +24,7 @@
    
     <link rel="stylesheet" href="{% static 'assets/css/color.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/custom.css' %}">
 	<link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{% static 'assets/images/favicon/apple-touch-icon.png' %}">
@@ -56,13 +57,7 @@
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a> 
+                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
                                 </li>
                             </ul>
                         </div>   
@@ -79,7 +74,7 @@
             <div class="outer-box clearfix">
                 <div class="header-upper-left-style2 pull-left clearfix">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/resources/logo-6.png" alt="Awesome Logo" title=""></a>
+                        <a href="/"><img src="{% static 'assets/images/resources/logo.png' %}" alt="Awesome Logo" title=""></a>
                     </div>   
                 </div>
                 <div class="header-upper-right-style2 pull-right">
@@ -91,7 +86,7 @@
                                 </div>
                                 <div class="title">
                                     <h3>Address</h3>
-                                    <p>13005 Greenville California.</p>
+                                    <p>Morogoro-Tanzania</p>
                                 </div>
                             </li>
                             <li>
@@ -100,7 +95,7 @@
                                 </div>
                                 <div class="title">
                                     <h3>Office Timeing</h3>
-                                    <p>Mon - Fri: 09:00 - 18:00</p>
+                                    <p>Mon - Sat: 08:00 AM - 08:00PM</p>
                                 </div>
                             </li>
                             <li>
@@ -142,23 +137,6 @@
                                 <ul class="navigation clearfix">
                                     <li class="dropdown current">
                                         <a class="home-icon" href="#">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home Page 01</a></li>
-                                            <li><a href="index-2.html">Home Page 02</a></li>
-                                            <li><a href="index-3.html">Home Page 03</a></li>
-                                            <li><a href="index-4.html">Home Page 04</a></li>
-                                            <li><a href="index-box-layout.html">Home Boxed Layout</a></li>
-                                            <li><a href="index-rtl.html">Home RTL</a></li>
-                                            <li><a href="index-onepage.html">Home OnePage</a></li>
-                                            <li class="dropdown"><a href="#">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header Style One</a></li>
-                                                    <li><a href="index-2.html">Header Style Two</a></li>
-                                                    <li><a href="index-3.html">Header Style Three</a></li>
-                                                    <li><a href="index-4.html">Header Style Four</a></li>
-                                                </ul>    
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">Pages</a>
                                         <ul>
@@ -205,19 +183,6 @@
                 </div>
                 <!--Top Right-->
                 <div class="header-lawer-right-style4 clearfix float-right">
-                    <div class="outer-search-box-style1">
-                        <div class="seach-toggle"><i class="fa fa-search"></i></div>
-                        <ul class="search-box">
-                            <li>
-                                <form method="post" action="index.html">
-                                    <div class="form-group">
-                                        <input type="search" name="search" placeholder="Search Here" required="">
-                                        <button type="submit"><i class="fa fa-search"></i></button>
-                                    </div>
-                                </form>
-                            </li>
-                        </ul>
-                    </div> 
                     <div class="button-box">
                         <a class="btn-four" href="#"><span class="txt">Get a Quote</span></a>
                     </div>      
@@ -234,7 +199,7 @@
             <div class="clearfix">
                 <!--Logo-->
                 <div class="logo float-left">
-                    <a href="index.html" class="img-responsive"><img src="assets/images/resources/logo-6.png" alt="" title=""></a>
+                    <a href="/" class="img-responsive"><img src="{% static 'assets/images/resources/logo.png' %}" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="right-col float-right">
@@ -256,7 +221,7 @@
         <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets/images/resources/logo-7.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="/"><img src="{% static 'assets/images/resources/logo-7.png' %}" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <!--Social Links-->
             <div class="social-links">
@@ -290,7 +255,7 @@
                     <div class="single-footer-widget marbtm50">
                         <div class="our-company-info">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/resources/logo-7.png" alt="Awesome Footer Logo" title="Logo"></a>    
+                                <a href="index.html"><img src="{% static 'assets/images/resources/logo-7.png' %}" alt="Awesome Footer Logo" title="Logo"></a>    
                             </div>
                             <div class="text">
                                 <p>There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected.</p>
@@ -347,28 +312,24 @@
             </div>
         </div>
     </div>
+    <div class="bottom-divider"></div>
     <div class="footer-bottom style4 wow slideInUp animated" data-wow-delay="0.3s" data-wow-duration="1200ms">
         <div class="container">
-            <div class="outer-box">
-                <div class="single-box">
+            <div class="row py-2">
+                <div class="col-md-4">
                     <div class="copyright-text style4">
-                        <p>Copyright © 2019 All Rights<br> Reserved. <a href="#">Energy.</a></p>
+                        <p>&copy; <script>document.write(new Date().getFullYear())</script> || <a href="#">Rare Consultancy</a></p>
                     </div>    
                 </div>
-                <div class="single-box">
+                <div class="col-md-4">
                     <div class="our-info-box">
                         <ul>
-                            <li><a href="tel:123456789">(+01) 123 456 7890</a></li>
-                            <li><a href="mailto:info@templatepath.com">info@example.com</a></li>
+                            <li><a href="tel:+255768284698">(+255) 768 284 698</a></li>
+                            <li><a href="mailto:info@rareconsultancy.co.tz">info@rareconsultancy.co.tz</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="single-box">
-                    <div class="our-info-box">
-                        <p>51 Somestreet Cambridge,<br> CB4 3AA, United Kingdom</p>
-                    </div>    
-                </div>
-                <div class="single-box">    
+                <div class="col-md-4">    
                     <div class="footer-social-links style4">
                         <ul>
                             <li>
