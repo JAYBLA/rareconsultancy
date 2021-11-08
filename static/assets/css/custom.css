@@ -15,16 +15,6 @@
 }
 
 
-
-/* ###################
-    TOP BAR
-################### */
-@media only screen and (max-width: 768px){
-    .header-top{
-        display: none;
-    }
-}
-
 .patter-box-bg-4{
     background-image: url(../images/pattern/pattern-bg-4.png);
 }
@@ -35,5 +25,10 @@
 
 .bottom-divider{
     height: 2px;
+    background: #008000;
+}
+
+.top-divider{
+    height: 4px;
     background: #008000;
 }
