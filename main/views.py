@@ -9,47 +9,7 @@ from django.http import JsonResponse
 def home(request):
     template_name = 'main/home.html'
     context = {
-        'title':"Serving With Pride"    
-        
-    }    
-    return render(request, template_name, context)
-
-def graphic_design(request):
-    template_name = 'main/graphic_design.html'
-    context = {
-        'title':"Graphic Design"    
-        
-    }    
-    return render(request, template_name, context)
-
-def tshirt_printing(request):
-    template_name = 'main/tshirt_printing.html'
-    context = {
-        'title':"Tshirt-Printing"    
-        
-    }    
-    return render(request, template_name, context)
-
-def signages(request):
-    template_name = 'main/signages.html'
-    context = {
-        'title':"2D & 3D Signages"    
-        
-    }    
-    return render(request, template_name, context)
-
-def banners_stickers(request):
-    template_name = 'main/banners_stickers.html'
-    context = {
-        'title':"Banners and Stickers"    
-        
-    }    
-    return render(request, template_name, context)
-
-def promotional_materials(request):
-    template_name = 'main/promotional_materials.html'
-    context = {
-        'title':"Promotional Materials"    
+        'title':"We move your business forward with the best solutions!."    
         
     }    
     return render(request, template_name, context)
