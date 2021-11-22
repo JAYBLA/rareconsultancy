@@ -32,3 +32,97 @@
     height: 4px;
     background: #008000;
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1000px) {
+    .main-content {
+        position: relative;
+        margin-bottom: 60% !important;
+        z-index: 20;
+        background-color: #fff;
+        box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.7);
+    }
+    .footer-area {
+        position: fixed;        
+        bottom: 0;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1110px) {
+    .main-content {
+        position: relative;
+        margin-bottom: 45% !important;
+        z-index: 20;
+        background-color: #fff;
+        box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.7);
+    }
+    .footer-area {
+        position: fixed;        
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1111px) and (max-width: 1210px) {
+    .main-content {
+        position: relative;
+        margin-bottom: 40% !important;
+        z-index: 20;
+        background-color: #fff;
+        box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.7);
+    }
+    .footer-area {
+        position: fixed;        
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1211px) and (max-width: 1510px) {
+    .main-content {
+        position: relative;
+        margin-bottom: 35% !important;
+        z-index: 20;
+        background-color: #fff;
+        box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.7);
+    }
+    .footer-area {
+        position: fixed;        
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1511px) and (max-width: 1740px) {
+    .main-content {
+        position: relative;
+        margin-bottom: 35% !important;
+        z-index: 20;
+        background-color: #fff;
+        box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.7);
+    }
+    .footer-area {
+        position: fixed;        
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1741px){
+    .main-content {
+        position: relative;
+        margin-bottom: 25% !important;
+        z-index: 20;
+        background-color: #fff;
+        box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.7);
+    }
+    .footer-area {
+        position: fixed;        
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+
+
+
